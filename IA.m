@@ -9,7 +9,7 @@ endif
 hist=imhist(img);
 hist=hist';
 fprintf(arquivo,'%d,',hist);
-fprintf(arquivo,'%s','----categoria aqui----');
+fprintf(arquivo,'%s',"'----categoria aqui----'");
 fprintf(arquivo,'\n');
 endfor
 fclose(arquivo);
